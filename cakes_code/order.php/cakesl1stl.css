@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.cont{
+  
+
+    margin: 28px auto;
+    padding-top: 15px;
+    padding-left: 15px;
+
+}
+.imges img{
+
+  
+  height: 135px;
+  border-radius: 20px;
+  
+}
+
+.imges{
+    padding-bottom: 10px;
+
+}
+@media all and  (max-width:800px){
+    .he{
+        height: 40px;
+    }
+}

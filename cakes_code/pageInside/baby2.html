@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../slideshow.css">
+    <link rel="stylesheet" href="../nav.css">
+    <link rel="stylesheet" href="../welcome.css">
+    <link rel="stylesheet" type="text/css" href="../btn.css">
+    <link rel="stylesheet" href="../catbox.css">
+    <link rel="stylesheet" href="pages.css">
+    <link rel="stylesheet" href="cakesl1.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="brand-title"><img src="../Background.svg" alt=""></div>
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+            <ul>
+                <li class="nv"><a href="../index.html">HOME</a></li>
+                <li class="nv"><a href="../menu.html">MENU</a></li>
+                <li class="nv"><a href="../contact.html">CONTACT US</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="floatright">
+
+        <div class="flexss">
+            <div class="flexs">
+                <div>
+                    <p class="cakesl1text margin-15pxx "><b> cake name </b></p>
+                </div>
+
+
+
+
+
+
+                <form action="../order.php/baby2.php">
+                    <input type="text" value="Blue baby #2" name="cakename1" class="cakesl1text margin-15pxx " readonly>
+    
+     
+                <div class="star margin-15px">
+                    <div><i class="fas fa-star yellow"></i></div>
+                    <div><i class="fas fa-star yellow"></i></div>
+                    <div><i class="fas fa-star yellow"></i></div>
+                    <div><i class="fas fa-star yellow"></i></div>
+                    <div><i class="fas fa-star white"></i></div>
+
+                </div>
+                <p class=" margin-top">flavours</p>
+                <div class="radio ">
+                    <input label="vanilla" type="radio" id="flavours" name="flavours" value="vanilla" class="margin-15px"  required>
+                    <input label="chocolate" type="radio" id="femflavoursale" name="flavours" value="chocolate"
+                        class="margin-15px">
+                    <input label="red velvet" type="radio" id="flavours" name="flavours" value="redvelvet"
+                        class="margin-15px">
+                    <input label="carrot" type="radio" id="flavours" name="flavours" value="carrot" class="margin-15px">
+                </div>
+
+
+
+                <br>
+                <!-- checked="checked" -->
+
+                <p class=" margin-top">filling</p>
+                <div class="radio">
+                    <input label="cream cheese" type="radio" id="filling" name="filling" value="creamcheese"
+                        class="margin-15px" required>
+                    <input label="strawberry sauce" type="radio" id="filling" name="filling" value="strawberrysauce"
+                        class="margin-15px">
+                    <input label="ferrero rocher chocolate" type="radio" id="filling" name="filling" value="ferrerorocherchocolate"
+                        class="margin-15px">
+                    <input label="marble" type="radio" id="filling" name="filling" value="marble" class="margin-15px">
+                </div><br><br>
+
+
+                <input class="words" type="textbox" placeholder="type 3 words"  maxlength="40" name="words" required>
+                
+                <p class="">select size of the cake</p>
+                <select id="cars" name="size" class=" border-radius" onChange="myNewFunction(this);">
+
+                    <option selected value="200">6 inch</option>
+                    <option value="250">7 inch</option>
+                    <option value="300">8 inch</option>
+                    <option value="400">10 inch</option>
+                </select>
+                <div>
+                    <div class=" margin-15px margin-15px-bm">qty</div>
+                    <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value"
+                        readonly>-</div>
+                    <input type="number" id="number" value="1" readonly="readonly" name="qty"/>
+                    <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value"
+                        readonly>+</div>
+                    <div class="sarflex">
+
+                        <p class="sar1">SAR:</p>
+                        <input type="hidden" name="price_hidden" id = "price_hidden">
+                        <p class="cakesl1text  margin-15px margin-15px-bm" style="font-weight:bold;" id="sar" name="price">200
+                        </p>
+                    </div>
+                </div>
+                <input type="hidden" id="name" name="name" placeholder="Enter your name" class="inmar words" required>
+
+                <input type="hidden" id="phonenumber" name="phonenumber" placeholder="Enter your Number" class="inmar words" required>
+
+                <input type="hidden" id="addresss" name="addresss" placeholder="Enter your address" class="inmar words" required>
+
+                <input type="hidden" id="email" name="email" placeholder="Enter your email " class="inmar words" required>
+
+            
+                <input type="text" value="Country:Saudi Arabia" name="saudi" class="cakesl1text margin-15pxx  mart" readonly>
+
+                <input type="hidden" name="submit" value="add to cart" id="butn" >
+
+                
+                <div id="chs" onclick="shownames()" style="display: block;">proced to checkout</div>
+            </form>
+
+        </div>
+
+
+            <div>
+                <div class="cakesl1img"><img src="../images/baby2.jpg" alt=""></div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <section>
+        <div class="orderpage">
+            <div>
+                <h2 class="light">FOLLOW US </h2>
+            </div>
+            <div>
+               
+
+
+                <h2 class="number">
+                    <i class="fab fa-instagram mi" onclick="location.href='https://www.instagram.com/om_rayan_event/';"></i> 
+                    <i class="fab fa-whatsapp mi" onclick="location.href='https://api.whatsapp.com/message/BBQMGZ6ICLMSN1';"></i> 
+                    <i class="fas fa-mobile-alt mi"></i> 
+                    <!-- 0549366343 -->
+                </h2>
+            </div>
+         
+        </div>
+    </section>
+
+    <section>
+
+        <div class="box-container">
+
+        </div>
+    </section>
+    <script src="../nav.js"></script>
+    <script src="cakesl1.js"></script>
+    <script src="https://kit.fontawesome.com/e69b69d2e3.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

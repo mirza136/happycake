@@ -1,0 +1,340 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    /* background-image: linear-gradient(red, yellow); */
+    font-family: 'Quicksand', sans-serif;
+    box-sizing: border-box;
+}
+.cakesl1img img{
+    margin-top: 100px;
+    height: 400px;
+    width: 400px;
+    margin-left:20px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 15px #888888;
+}  
+.flexs{
+    display: flex; 
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    box-shadow: 0px 0px 5px #888888;
+    border-radius: 20px;
+    width:500px ;
+    height: 848px;   
+}
+.flexss{
+    display: flex;
+}
+.floatright{
+
+    float: right;
+    padding: 14px;
+    margin-right: 194px;
+    font-family: 'Quicksand', sans-serif;
+}
+.star{
+    display: flex;
+}
+
+/* _________________radio */
+
+
+.radio { 
+	padding: 4px;
+	width: 300px;
+	position: relative;
+}
+
+.radio input {
+	width: auto;
+	height: 100%;
+	appearance: none;
+	outline: none;
+	cursor: pointer;
+	border: 1px solid rgb(255 159 159);
+    border-radius: 20px;
+	padding: 4px 8px;
+	background: white;
+	color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+	font-size: 14px;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+		"Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+		"Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	transition: all 100ms linear;
+}
+
+.radio input:checked {
+	background:rgb(255 159 159);
+	color:rgb(0, 0, 0);
+	box-shadow: 0 1px 1px #0000002e;
+	text-shadow: 0 1px 0px #79485f7a;
+}
+
+.radio input:before {
+	content: attr(label);
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+}
+.yellow{
+ color: #ffa41c;
+
+}
+.white{
+    
+  
+    color:grey;
+}
+
+
+/* qty______________ */
+form {
+    width: 300px;  
+    padding: 30px;
+  }
+  
+  .value-button {
+    display: inline-block;
+    border: 1px solid #ddd;
+    margin: 0px;
+    width: 40px;
+    height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 11px 0;
+    background: #eee;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.value-button:hover {
+    cursor: pointer;
+}
+
+form #decrease {
+    margin-right: -4px;
+    border-radius: 8px 0 0 8px;
+    padding: 18px;
+}
+
+form #increase {
+    padding: 18px;
+    margin-left: -4px;
+    border-radius: 0 8px 8px 0;
+}
+
+form #input-wrap {
+    margin: 0px;
+    padding: 0px;
+}
+
+input#number {
+    text-align: center;
+    border: none;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    margin: 0px;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+.margin-15px{
+    margin-right: 7px;
+    margin-top: 7px;
+}
+.margin-15pxx{
+  
+    margin-top: 20px;
+}
+.margin-15px-bm{
+    margin-bottom: 7px;
+}
+.border-radius{
+    padding-right: 180px;
+    border-radius: 20px;
+    border: none;
+    text-decoration: none;
+    background: rgb(255 159 159);
+    cursor: pointer;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    outline: none;
+    margin-bottom: 10px;
+}
+.sarflex{
+    display: flex;
+}
+.sar1{
+    margin-top: 7px;
+    font-weight:bold;
+    
+}
+.words{
+ padding-top: 3px;
+ padding-bottom: 3px;
+ padding-left:8px;
+ padding-right: 89px;
+ margin-bottom: 10px;
+ border-radius: 20px;
+ border: 1px solid  rgb(255 159 159);
+ outline: none;
+}
+#butn{
+    margin-top: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 85px;
+    padding-right: 85px;
+    border-radius: 20px;
+    border: 2px solid rgb(255 159 159);
+    background-color: rgb(255 159 159);
+    box-shadow: 0px 0px 4px gray;
+    cursor: pointer;
+}
+.cakesl1text{
+    border: none;
+    outline: none;
+}
+#chs{
+   
+    padding-left: 46px;
+    padding-top: 5px;
+    
+    height: 36px;
+    width: 238px;
+    background-color: rgb(255 159 159);
+    border: 2px solid rgb(255 159 159);
+    border-radius: 20px;
+    cursor: pointer;
+}
+.inmar{
+    margin-bottom: 5px;
+    padding: 5px 97px 5px 4px;
+    
+    outline: none;
+}
+.mart{
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width:1167px) {
+    .flexss{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .cakesl1img img{
+        margin-top: 30px;
+    }
+    .floatright{
+    
+        float: center;
+        padding: 14px;
+        margin-right: 194px;
+        font-family: 'Quicksand', sans-serif;
+    }
+    .flexs{
+        display: flex; 
+        align-items: center;
+        flex-direction: column;
+        margin-top: 10px;
+        box-shadow: 0px 0px 5px #888888;
+        border-radius: 20px;
+        width:453px ;
+        height: 848px;   
+    }
+    
+}
+@media all and (max-width:800px) {
+    .cakesl1img img{
+        margin-top: 30px;
+        height: 250px;
+        width: 250px;
+      
+        border-radius: 20px;
+        box-shadow: 0px 5px 15px #888888;
+    } 
+    .flexs{
+        display: flex; 
+        align-items: center;
+        flex-direction: column;
+        margin-top: 10px;
+        box-shadow: 0px 0px 5px #888888;
+        border-radius: 20px;
+        width:300px ;
+        height: 848px;   
+    }
+    .margin{
+        margin-left: 0px;
+    }
+    .floatright{
+
+        float: right;
+        padding: 14px;
+        margin-right: 150px;
+        font-family: 'Quicksand', sans-serif;
+    }
+}
+@media all and (max-width:600px){
+    .floatright{
+
+        float: right;
+        padding: 14px;
+        margin-right: 80px;
+        font-family: 'Quicksand', sans-serif;
+    }
+}
+@media all and (max-width:500px){
+    .floatright{
+
+        float: right;
+        padding: 14px;
+        margin-right: 50px;
+        font-family: 'Quicksand', sans-serif;
+    }
+}
+@media all and (max-width:400px){
+    .floatright{
+
+        float: right;
+        padding: 14px;
+        margin-right: 0px;
+        font-family: 'Quicksand', sans-serif;
+    }
+}
+@media all and (max-width:300px){
+    .floatright{
+
+        float: right;
+        padding: 14px;
+        margin-right: 30px;
+        font-family: 'Quicksand', sans-serif;
+    }
+}

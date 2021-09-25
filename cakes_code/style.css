@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  /* background-image: linear-gradient(red, yellow); */
+  box-sizing: border-box;
+}
+
+/* ________________________ footer order now */
+
+.orderpage {
+  height: 360px;
+  width: 100%;
+  background: #07252d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.light {
+  margin-top: 21px;
+  font-family: 'Zen Tokyo Zoo', cursive;
+  position: relative;
+  font-size: 6em;
+  letter-spacing: 4px;
+  color: #0e3742;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #0008);
+  line-height: 0.70em;
+  outline: none;
+  animation: animate 5s linear infinite;
+}
+
+.mi {
+  font-size: 80px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+@keyframes animate {
+  0%, 18%, 20%, 50.1%, 60%, 65.1%, 80%, 90.1%, 92% {
+    color: #0e3742;
+    box-shadow: none;
+  }
+  18.1%, 20.1%, 30%, 50%, 60.1%, 65%, 80.1%, 90%, 92.1%, 100% {
+    color: #fff;
+    text-shadow: #03bcf4, 0 0 20px #03bcf4, 0 0 40px #03bcf4, 0 0 80px #03bcf4, 0 0 160px #03bcf4,
+  }
+}
+
+.number {
+  color: white;
+  margin-top: 80px;
+  font-size: 30px;
+}
+
+.callus {
+  position: relative;
+}
+
+.callus::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 2px;
+  background: #03e9f4;
+  animation: blinkCursor 0.8s steps(3) infinite;
+}
+
+.callus h2 {
+  position: relative;
+  color: #03e9f4;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
+
+  /* ________________________ footer order now */
+  .cake1 {
+    height: 336px;
+    width: 233px;
+    margin-left: 33px;
+    margin-right: 17px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    box-shadow: 0px 0px 8px #888888;
+    border-radius: 20px;
+  }
+  .cake1 img {
+    cursor: pointer;
+    width: 233px;
+    border-radius: 20px 20px 10px 10px;
+    height: 230px;
+  }
+  /* ____________ */
+  .zoom {
+    transition: transform .2s;
+    /* Animation */
+  }
+  .zoom:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 10px 8px rgb(255 159 159);
+  }
+  .cakename {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+  }
+  .cakenames {
+    margin-top: 5px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+  }
+  .btn:hover {
+    border: 3px solid pink;
+    box-shadow: 0px 5px 15px black;
+  }
+  .combaintworow {
+    display: flex;
+  }
+  .sec2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  /* .combaintworow{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+} */
+  .cakebox {
+    height: auto;
+    width: auto;
+  }
+  .starbox {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+  }
+  .yellow {
+    color: #ffa41c;
+    cursor: pointer;
+  }
+  .white {
+    color: grey;
+    cursor: pointer;
+  }
+
+  
+  /* ____________mediaquery__________ */
+
+  @media all and  (max-width: 440px) {
+    .light {
+      font-size: 3em;
+    }
+  }
+  @media screen and (max-width:1024px) {
+    .cake1 {
+      height: 336px;
+      width: 233px;
+      margin-left: 33px;
+      margin-right: 17px;
+      margin-top: 80px;
+      margin-bottom: 80px;
+      box-shadow: 0px 5px 15px #888888;
+      border-radius: 20px;
+    }
+    .cake1 img {
+      width: 233px;
+      border-radius: 20px 20px 10px 10px;
+      height: 230px;
+    }
+  }
+  @media all and (max-width:800px) {
+    .cake1 {
+      height: 292px;
+      width: 190px;
+      margin-left: 18px;
+      margin-right: 18px;
+      margin-top: 80px;
+      margin-bottom: 20px;
+      box-shadow: 0px 5px 15px #888888;
+      border-radius: 20px;
+    }
+    .cake1 img {
+      width: 190px;
+      border-radius: 20px 20px 10px 10px;
+      height: 190px;
+    }
+    .mi {
+      font-size: 75px;
+      margin: 10px;
+      cursor: pointer;
+    }
+    .light {
+      font-size: 5em;
+    }
+  }
+  @media all and (max-width:600px) {
+    .text {
+      border-radius: 50px;
+      color: black;
+      font-size: auto;
+      padding: 0;
+    }
+    .cake1 {
+      height: 292px;
+      width: 190px;
+      margin-left: 17px;
+      margin-right: 17px;
+      margin-top: 80px;
+      margin-bottom: 20px;
+      box-shadow: 0px 5px 15px #888888;
+      border-radius: 20px;
+    }
+    .mi {
+      font-size: 65px;
+      margin: 10px;
+      cursor: pointer;
+    }
+    .light {
+      font-size: 3.5em;
+    }
+  }
+  @media all and (max-width:474px) {
+    .text {
+      border-radius: 50px;
+      color: black;
+      font-size: auto;
+      padding: 0;
+    }
+    .cake1 {
+      height: 292px;
+      width: 190px;
+      margin-left: 14px;
+      margin-right: 14px;
+      margin-top: 80px;
+      margin-bottom: 20px;
+      box-shadow: 0px 5px 15px #888888;
+      border-radius: 20px;
+    }
+  }
+  @media all and (max-width:436px) {
+    .text {
+      border-radius: 50px;
+      color: black;
+      font-size: auto;
+      padding: 0;
+    }
+    .cake1 {
+      height: 238px;
+      width: 130px;
+      margin-left: 14px;
+      margin-right: 14px;
+      margin-top: 80px;
+      margin-bottom: 20px;
+      box-shadow: 0px 5px 15px #888888;
+      border-radius: 11px;
+    }
+    .cake1 img {
+      width: 130px;
+      height: 130px;
+      border-radius: 13px 13px 10px 10px;
+    }
+  }
+  @media all and (max-width:400px) {
+    .text {
+      border-radius: 50px;
+      color: black;
+      font-size: auto;
+      padding: 0;
+    }
+    .cake1 {
+      height: 238px;
+      width: 130px;
+      margin-left: 14px;
+      margin-right: 14px;
+      margin-top: 80px;
+      margin-bottom: 20px;
+      box-shadow: 0px 5px 15px #888888;
+      border-radius: 11px;
+    }
+    .cake1 img {
+      width: 130px;
+      height: 130px;
+      border-radius: 13px 13px 10px 10px;
+    }
+    .light{
+      font-size: 2rem;
+    }
+  }
+  @media all and (max-width:300px) {
+    .text {
+      border-radius: 50px;
+      color: black;
+      font-size: auto;
+      padding: 0;
+    }
+    .cake1 {
+      height: 238px;
+      width: 130px;
+      margin-left: 14px;
+      margin-right: 14px;
+      margin-top: 80px;
+      margin-bottom: 20px;
+      box-shadow: 0px 5px 15px #888888;
+      border-radius: 11px;
+    }
+    .cake1 img {
+      width: 130px;
+      height: 130px;
+      border-radius: 13px 13px 10px 10px;
+    }
+  }
+  @media all and (max-width:200px) {
+    .text {
+      border-radius: 50px;
+      color: black;
+      font-size: auto;
+      padding: 0;
+    }
+    .cake1 {
+      height: 238px;
+      width: 130px;
+      margin-left: 14px;
+      margin-right: 14px;
+      margin-top: 80px;
+      margin-bottom: 20px;
+      box-shadow: 0px 5px 15px #888888;
+      border-radius: 11px;
+    }
+    .cake1 img {
+      width: 130px;
+      height: 130px;
+      border-radius: 13px 13px 10px 10px;
+    }
+  }
+  @media all and (max-width:700px) {
+    .mi {
+      font-size: 70px;
+      margin: 10px;
+      cursor: pointer;
+    }
+    
+  }
